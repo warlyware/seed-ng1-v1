@@ -1,0 +1,19 @@
+{
+  "name": "seed-app-v2",
+  "version": "0.0.1",
+  "description": "seed application",
+  "main": "application.module.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "cd build && lite-server",
+    "serve": "cd build && lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
