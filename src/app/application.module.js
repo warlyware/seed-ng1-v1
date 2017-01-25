@@ -1,2 +1,2 @@
 angular
-    .module('seedApp', ['ngMaterial']);
+    .module('seedApp', ['ui.router','ngMaterial']);

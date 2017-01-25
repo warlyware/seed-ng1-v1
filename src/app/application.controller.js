@@ -5,7 +5,7 @@ angular
     .controller('ApplicationController', ApplicationController);
 
     function ApplicationController() {
-        console.log('ApplicationController online');
+        console.log('ApplicationController online!!!');
     };
 
 })();
