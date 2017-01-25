@@ -1,19 +1,17 @@
 (function() {
 
 angular
-    .module('seedApp')
+    .module('audio-player-app')
     .config(config);
 
     function config($stateProvider) {
         $stateProvider.state('home', {
             url: '/',
-            template: '<h1>we are home</h1>',
+            template: '<div><audio-player></audio-player></div>',
             controller: function() {
                 console.log('Home Controller Online');
             }
         });
-
-        $stateProvider.otherwise()
     };
 
 })();

@@ -1,2 +1,6 @@
 angular
-    .module('seedApp', ['ui.router','ngMaterial']);
+    .module('audio-player-app', [
+        'ui.router',
+        'ngMaterial',
+        'audio-player',
+    ]);

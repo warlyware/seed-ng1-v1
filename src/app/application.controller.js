@@ -1,11 +1,11 @@
 (function() {
 
 angular
-    .module('seedApp')
+    .module('audio-player-app')
     .controller('ApplicationController', ApplicationController);
 
     function ApplicationController() {
-        console.log('ApplicationController online!!!');
+        console.log('ApplicationController online');
     };
 
 })();
