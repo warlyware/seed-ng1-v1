@@ -1,7 +1,7 @@
 (function() {
 
 angular
-    .module('audio-player-app')
+    .module('seed-app')
     .controller('ApplicationController', ApplicationController);
 
     function ApplicationController() {

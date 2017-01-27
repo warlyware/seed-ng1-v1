@@ -1,7 +1,7 @@
 (function() {
 
 angular
-    .module('audio-player-app')
+    .module('seed-app')
     .config(config);
 
     function config($stateProvider) {
