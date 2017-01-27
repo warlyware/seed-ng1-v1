@@ -6,11 +6,15 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat-css": "^2.3.0",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "karma": "^1.4.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2"
   },
   "scripts": {
     "build": "gulp",
-    "start": "cd build && lite-server"
+    "start": "cd build && lite-server",
+    "test": "karma start"
   },
   "author": "",
   "license": "ISC",
