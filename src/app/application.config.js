@@ -7,7 +7,7 @@ angular
     function config($stateProvider) {
         $stateProvider.state('home', {
             url: '/',
-            template: '<div><audio-player></audio-player></div>',
+            template: '<h1>home!</h1>',
             controller: function() {
                 console.log('Home Controller Online');
             }
